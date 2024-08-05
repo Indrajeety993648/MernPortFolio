@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
 
 const Experience = () => {
@@ -11,31 +11,34 @@ const Experience = () => {
     >
       <div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2010 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - 2024</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="Sr. Software Engineer"
-            subTitle="Google Out Tech - (2017 - Present)"
-            result="USA"
-            des="Google's hiring process is an important part of our culture. Googlers care deeply about their teams and the people who make them up."
+            title="Fresher"
+            subTitle="Scaler School Of Technology"
+            result="Bangalore"
+            des="Currently pursuing initial professional experience at Scaler School Of Technology, gaining hands-on skills and exposure to real-world projects in a dynamic tech environment."
           />
+          {/* Uncomment and modify as needed for actual content
           <ResumeCard
             title="Web Developer & Trainer"
             subTitle="Apple Developer Team - (2012 - 2016)"
-            result="MALAYSIA"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            result="Malaysia"
+            des="Contributed as a Web Developer and Trainer, creating innovative web solutions and training team members in cutting-edge technologies within a leading tech company."
           />
           <ResumeCard
             title="Front-end Developer"
             subTitle="Nike - (2020 - 2011)"
             result="Oman"
-            des="The Oman economy has grown strongly over recent years, having transformed itself from a producer and innovation-based economy."
+            des="Worked as a Front-end Developer, delivering engaging user experiences and optimizing web interfaces for a globally recognized brand in a rapidly evolving market."
           />
+          */}
         </div>
       </div>
       <div>
+        {/* Uncomment and modify as needed for actual content
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2001 - 2020</p>
           <h2 className="text-4xl font-bold">Trainer Experience</h2>
@@ -44,22 +47,23 @@ const Experience = () => {
           <ResumeCard
             title="Gym Instructor"
             subTitle="Rainbow Gym Center (2015 - 2020)"
-            result="DHAKA"
-            des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
+            result="Dhaka"
+            des="Guided clients in achieving fitness goals at Rainbow Gym Center, focusing on personalized training programs and promoting overall wellness."
           />
           <ResumeCard
             title="Web Developer and Instructor"
             subTitle="SuperKing College (2010 - 2014)"
-            result="CANADA"
-            des="Higher education is tertiary education leading to award of an academic degree. Higher education, also called post-secondary education."
+            result="Canada"
+            des="Developed web applications and taught web development courses, equipping students with practical skills and industry insights at SuperKing College."
           />
           <ResumeCard
             title="School Teacher"
             subTitle="Kingstar Secondary School (2001 - 2010)"
-            result="NEVADA"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
+            result="Nevada"
+            des="Taught various subjects at Kingstar Secondary School, fostering a supportive learning environment and contributing to student academic growth."
           />
         </div>
+        */}
       </div>
     </motion.div>
   );
