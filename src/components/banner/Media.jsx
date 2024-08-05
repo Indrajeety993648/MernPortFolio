@@ -14,10 +14,10 @@ const Media = () => {
             {/* <span className="bannerIcon">
               <FaFacebookF />
             </span> */}
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <a href="https://twitter.com/@INDRAJEETY67655" target="_blank" rel="noopener noreferrer" className="bannerIcon">
               <IoLogoTwitter title="Twitter" />
             </a>
-            <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+            <a href="https://www.linkedin.com/in/indrajeet-yadav-5619b8283/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
               <FaLinkedinIn title="LinkedIn" />
             </a>
           </div>
