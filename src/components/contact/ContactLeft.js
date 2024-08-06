@@ -26,13 +26,13 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me on</h2>
         <div className="flex gap-4">
-          <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+          {/* <a href="" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaFacebookF />
-          </a>
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+          </a> */}
+          <a href="https://twitter.com/@INDRAJEETY67655" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaTwitter />
           </a>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+          <a href="https://www.linkedin.com/in/indrajeet-yadav-5619b8283/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaLinkedinIn />
           </a>
         </div>
