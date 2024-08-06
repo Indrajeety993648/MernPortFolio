@@ -1,6 +1,6 @@
-import React from 'react'
-import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import React from 'react';
+import Title from '../layouts/Title';
+import { projectOne, projectTwo, projectThree,projectFour } from '../../assets/index';
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -11,50 +11,42 @@ const Projects = () => {
     >
       <div className="flex justify-center items-center text-center">
         <Title
-          title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
+          title=""
           des="My Projects"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="E-commerce Admin DashBoard Panel"
+          des="A comprehensive dashboard panel for managing e-commerce operations, including product management, order tracking, and user analytics."
           src={projectOne}
-        />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          githubLink="https://github.com/Indrajeety993648/E-CommerceAdminDashBoard"
+          liveLink=""
         />
         <ProjectsCard
           title="Yulu"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="An innovative bike-sharing app that allows users to locate, rent, and ride electric bikes in urban areas."
           src={projectThree}
+          githubLink="https://github.com/Indrajeety993648/Yulu-Project"
+          liveLink=""
         />
         <ProjectsCard
-          title="Aerofit"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="CalcDiverse"
+          des="CalcDiverse is a customized collection of calculators for various aspects of mathematics. Individuals with basic web development knowledge can create distinctive calculators and submit pull requests."
+          src={projectFour}
+          githubLink="https://github.com/Indrajeety993648/CalcDiverse"
+          liveLink="https://calcdiverse.netlify.app/"
         />
         <ProjectsCard
           title="Book My Show"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="A movie ticket booking platform where users can browse showtimes, book tickets, and read reviews for the latest films."
           src={projectTwo}
+          githubLink="https://github.com/Indrajeety993648/BookmyshowfinalAssignment"
+          liveLink=""
         />
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;
