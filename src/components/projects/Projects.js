@@ -31,11 +31,11 @@ const Projects = () => {
           liveLink=""
         />
         <ProjectsCard
-          title="CalcDiverse"
-          des="CalcDiverse is a customized collection of calculators for various aspects of mathematics. Individuals with basic web development knowledge can create distinctive calculators and submit pull requests."
+          title="Onebox-Frontend"
+          des="Onebox-Frontend is a mailing platform designed for efficient communication. It allows users to manage emails seamlessly with a user-friendly interface. Developers with basic web development skills can contribute by creating features and submitting pull requests."
           src={projectFour}
-          githubLink="https://github.com/Indrajeety993648/CalcDiverse"
-          liveLink="https://calcdiverse.netlify.app/"
+          githubLink="https://github.com/Indrajeety993648/reachinbox-Frontened"
+          liveLink="https://reachinbox-frontened.vercel.app/login"
         />
         <ProjectsCard
           title="Book My Show"
@@ -44,6 +44,14 @@ const Projects = () => {
           githubLink="https://github.com/Indrajeety993648/BookmyshowfinalAssignment"
           liveLink=""
         />
+        <ProjectsCard
+          title="Quiz-App"
+          des="An interactive quiz application where users can test their knowledge on various topics, track their scores, and challenge themselves with timed quizzes."
+          src={projectTwo}
+          githubLink="https://github.com/Indrajeety993648/QuizReact"
+          liveLink="https://quiz-react-sepia-delta.vercel.app/"
+        />
+
       </div>
     </section>
   );
